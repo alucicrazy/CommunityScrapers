@@ -1,6 +1,10 @@
 {
-    "yaml.schemas": {
-        "validator/scraper.schema.json": "*.yml"
-    },
-    "python.analysis.typeCheckingMode": "basic"
+  "yaml.schemas": {
+    "validator/scraper.schema.json": "*.yml"
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "python.formatting.provider": "none"
 }
